@@ -197,6 +197,79 @@ python -m ipykernel install --user --name=story_mlops_env --display-name="CYOA M
 - **Transformers Library**: https://huggingface.co/docs/transformers/index
 - **Jupyter Notebook Basics**: https://jupyter-notebook.readthedocs.io/
 
+## 📈 Progress Tracking
+
+### 🎯 Project Milestones
+
+#### ✅ Phase 1: Data Infrastructure (COMPLETED)
+- [x] **Project Setup**: Virtual environment and dependencies
+- [x] **Data Creation**: Anime-inspired CYOA dataset (5 scenarios)
+- [x] **MLflow Integration**: Data versioning and experiment tracking
+- [x] **Documentation**: Comprehensive README and setup instructions
+- [x] **Version Control**: Git repository setup and initial commit
+
+#### 🔄 Phase 2: ML Model Development (IN PROGRESS)
+- [ ] **Model Selection**: Choose appropriate transformer for story generation
+- [ ] **Training Pipeline**: Implement model training with MLflow logging
+- [ ] **Model Versioning**: Track model versions and performance metrics
+- [ ] **Evaluation**: Create evaluation metrics for story quality
+- [ ] **Hyperparameter Tuning**: Optimize model performance
+
+#### 📋 Phase 3: Deployment & APIs (PLANNED)
+- [ ] **Model Serving**: Set up MLflow model serving
+- [ ] **API Development**: Create REST API for story generation
+- [ ] **Web Interface**: Build interactive UI for CYOA gameplay
+- [ ] **Containerization**: Docker setup for easy deployment
+- [ ] **CI/CD Pipeline**: Automated testing and deployment
+
+#### 🚀 Phase 4: Enhancement & Scale (FUTURE)
+- [ ] **Dataset Expansion**: Add 50+ more anime-inspired scenarios
+- [ ] **Multi-Genre Support**: Support for different anime genres
+- [ ] **User Feedback**: Implement feedback collection and model improvement
+- [ ] **Performance Optimization**: Scale for production usage
+- [ ] **Community Features**: User-generated content and sharing
+
+### 📊 Current Status
+
+**Last Updated**: January 1, 2025  
+**Current Phase**: 1 (Data Infrastructure) ✅ COMPLETE  
+**Next Milestone**: Model Selection and Training Setup  
+**Active Development**: MLOps pipeline refinement  
+
+### 🔍 Recent Progress
+
+#### Week of Jan 1, 2025
+- ✅ Fixed notebook duplication issues
+- ✅ Successfully executed complete MLflow data versioning workflow
+- ✅ Verified experiment tracking: `cyoa_data_versioning` experiment created
+- ✅ Confirmed artifact logging: Both original and processed datasets stored
+- ✅ Pushed initial codebase to GitHub repository
+
+### 📝 Development Log
+
+Track detailed progress in commit messages using conventional commits:
+```bash
+feat: implement new story generation model
+fix: resolve MLflow logging issue
+docs: update API documentation
+data: add 10 new fantasy scenarios
+test: add unit tests for preprocessing pipeline
+```
+
+### 🎯 Success Metrics
+
+**Phase 1 Targets** ✅
+- [x] MLflow experiments running successfully
+- [x] Data preprocessing pipeline functional
+- [x] Reproducible setup process documented
+- [x] Version control established
+
+**Phase 2 Targets** (Next)
+- [ ] Model training completes without errors
+- [ ] Story generation quality acceptable (human evaluation)
+- [ ] Training time < 30 minutes on local machine
+- [ ] Model size < 2GB for deployment
+
 ## 🤝 Contributing
 
 Feel free to expand this project with:
