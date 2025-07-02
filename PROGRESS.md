@@ -1,16 +1,16 @@
 # 📈 CYOA MLOps Project Progress Log
 
-> **Project**: Anime-Inspired Choose Your Own Adventure Story Generator  
+> **Project**: Pine Hollow Mystery - Twin Peaks Inspired CYOA Generator  
 > **Started**: January 1, 2025  
-> **Status**: Phase 1 Complete ✅  
+> **Status**: Phase 2 Complete ✅  
 
 ## 🎯 Quick Status Dashboard
 
 | Metric | Value | Target | Status |
 |--------|-------|--------|--------|
-| **Phase Progress** | 1/4 Complete | Phase 2 | ✅ On Track |
-| **Data Scenarios** | 5 | 50+ | 🔄 In Progress |
-| **MLflow Experiments** | 1 | Multiple | ✅ Working |
+| **Phase Progress** | 2/4 Complete | Phase 2 | ✅ On Track |
+| **Data Scenarios** | 10 (Mystery) | 50+ | 🔄 In Progress |
+| **MLflow Experiments** | 3 | Multiple | ✅ Working |
 | **Git Commits** | 1 | Regular | 📈 Active |
 | **Documentation** | Complete | Maintained | ✅ Good |
 
@@ -18,7 +18,7 @@
 
 ### 🗓️ January 1, 2025
 
-#### ✅ Major Accomplishments
+#### ✅ Major Accomplishments - Phase 1 (Anime Foundation)
 - **9:00 PM**: Created complete project structure with virtual environment
 - **9:15 PM**: Generated anime-inspired CYOA dataset (5 scenarios)
 - **9:30 PM**: Implemented MLflow data versioning workflow
@@ -26,6 +26,14 @@
 - **10:00 PM**: Fixed notebook corruption issues and cleaned up structure
 - **10:15 PM**: Connected to GitHub repository and pushed initial commit
 - **10:30 PM**: Enhanced README with comprehensive progress tracking section
+
+#### ✅ Major Accomplishments - Phase 2 (Twin Peaks Mystery Pivot)
+- **Evening Session**: Pivoted from anime to Twin Peaks mystery theme
+- **Data Collection**: Built authentic Twin Peaks dialogue patterns from Episode 1 script
+- **Dataset Enhancement**: Created 10 Pine Hollow mystery scenarios with atmosphere progression
+- **Baseline Experiment**: Ran GPT-2 baseline on mystery vs anime themes
+- **Analysis Complete**: Mystery generates longer, more atmospheric responses
+- **MLOps Pipeline**: Full experiment tracking and comparison framework established
 
 #### 🔧 Technical Details
 - **MLflow Run ID**: `e1b2bc34037f451da2b2fa48ea8018d2`
