@@ -1,22 +1,22 @@
-# 🎌 Anime-Inspired CYOA MLOps Story Generator
+# 🌲 Pine Hollow Mystery - Twin Peaks Inspired CYOA Generator
 
-A Choose Your Own Adventure (CYOA) story generator powered by machine learning and MLOps best practices, inspired by anime storytelling themes like *Wandering Witch*, *Clannad*, and other beloved series.
+A Choose Your Own Adventure (CYOA) mystery generator powered by machine learning and MLOps best practices, inspired by Twin Peaks atmospheric storytelling and Stranger Things sci-fi elements.
 
 ## 🌟 Project Overview
 
 This project demonstrates MLOps principles applied to AI story generation for interactive fiction. It combines:
 
-- **🤖 AI Story Generation**: Using transformers and language models
+- **🤖 AI Story Generation**: Using GPT-2 and transformers for mystery narratives
 - **📊 MLOps Data Versioning**: Track and version datasets with MLflow
-- **🎨 Anime-Inspired Content**: Stories inspired by popular anime themes
+- **🌫️ Mystery Atmosphere**: Twin Peaks inspired small-town mystery themes
 - **🔄 Reproducible Workflows**: Ensure consistent results across different environments
 
-### 🎭 Story Genres Included
-- **Fantasy** - Mystical forests and ancient spirits
-- **Magic School** - Academy adventures with forbidden knowledge
-- **Slice of Life** - Peaceful countryside and everyday magic
-- **Gaming/Isekai** - Virtual worlds and epic quests
-- **Time Loop** - Temporal mysteries and repeated events
+### 🕵️ Mystery Themes Included
+- **Sheriff's Path** - Police investigation and official channels
+- **Diner Path** - Small town gossip and local connections  
+- **Forest Path** - Supernatural investigation and hidden secrets
+- **Twin Peaks Era** - Coffee, small-town mysteries, quirky characters
+- **Stranger Things Era** - Government experiments and sci-fi elements
 
 ## 🏗️ Project Structure
 
