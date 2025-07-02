@@ -1,0 +1,104 @@
+# 🎌 CYOA MLOps Project - Cursor Rules & Context
+
+## 📋 PROJECT OVERVIEW
+This is an anime-inspired Choose Your Own Adventure (CYOA) story generator using MLOps best practices.
+- **Goal**: Build an AI story generator with proper MLflow tracking and version control
+- **Tech Stack**: Python, MLflow, GPT-2, Transformers, Jupyter, Git
+- **Environment**: Windows PowerShell, virtual environment `story_mlops_env`
+- **User Level**: New to ML but learning step-by-step with educational explanations
+
+## 🎯 CURRENT STATUS (January 1, 2025)
+- ✅ **Phase 1 COMPLETE**: Data Infrastructure & MLOps Setup
+- 🔄 **Phase 2 IN PROGRESS**: ML Model Development (just completed first experiment)
+- **Current Achievement**: Successfully ran first GPT-2 inference experiment
+- **Active Services**: Jupyter (localhost:8888), MLflow UI (localhost:5000)
+- **Git Status**: Connected to https://github.com/jaidenschembri/cyoa.git
+
+## 📊 COMPLETED WORK
+### Data & MLOps Infrastructure:
+- ✅ Virtual environment setup with all dependencies
+- ✅ 5 anime-inspired CYOA scenarios in `data/story_dataset.csv`
+- ✅ Data preprocessing pipeline with MLflow logging
+- ✅ MLflow experiments: `cyoa_data_versioning` (data) & `cyoa_model_experiments` (models)
+- ✅ Comprehensive progress tracking system (README.md, PROGRESS.md)
+
+### ML Model Experiments:
+- ✅ First GPT-2 baseline experiment completed successfully
+- ✅ Generated 5 story responses and compared to human-written versions
+- ✅ Results saved to `generated_stories_baseline.csv` and MLflow artifacts
+- ✅ Model pipeline: data loading → GPT-2 inference → evaluation → MLflow logging
+
+## 🔧 PROJECT STRUCTURE
+```
+cyoa-mlops/
+├── 📁 data/
+│   ├── story_dataset.csv (original anime CYOA data)
+│   └── processed_story_dataset.csv (preprocessed for ML)
+├── 📁 mlruns/ (MLflow experiment tracking)
+├── 📁 story_mlops_env/ (Python virtual environment)
+├── 📓 version_data.ipynb (data versioning workflow)
+├── 📓 model_experiment.ipynb (ML model experiments)
+├── 📋 requirements.txt (dependencies)
+├── 📈 PROGRESS.md (detailed progress tracking)
+├── 📖 README.md (project documentation)
+├── 🔧 update_progress.py (progress tracking automation)
+└── 📄 generated_stories_baseline.csv (GPT-2 experiment results)
+```
+
+## 🤖 ML EXPERIMENT RESULTS
+**GPT-2 Baseline Performance:**
+- Generated stories for all 5 genres (fantasy, magic_school, slice_of_life, gaming_isekai, time_loop)
+- **Key Observations**: Model generates coherent text but lacks anime-specific context
+- **Issues Found**: Repetitive patterns, not CYOA-formatted, generic responses
+- **Next Steps**: Fine-tuning needed for anime storytelling style
+
+## 🎯 IMMEDIATE NEXT STEPS
+1. **Analyze ML results** in MLflow UI at http://localhost:5000
+2. **Document experiment findings** and update progress tracking
+3. **Plan fine-tuning approach** for anime-specific content
+4. **Expand dataset** with more anime scenarios (target: 15-20 stories)
+5. **Experiment with prompt engineering** for better CYOA format
+
+## 🧠 USER LEARNING PROGRESS
+**ML Concepts Mastered:**
+- ✅ Pre-trained models and inference
+- ✅ MLflow experiment tracking and artifact logging
+- ✅ Model evaluation basics
+- ✅ Data preprocessing pipelines
+- ✅ End-to-end MLOps workflows
+
+**Ready to Learn Next:**
+- Fine-tuning vs transfer learning
+- Hyperparameter optimization
+- Advanced evaluation metrics
+- Model deployment concepts
+
+## 💬 COMMUNICATION STYLE
+- **Use brief educational comments** in code (don't over-explain)
+- **Explain ML concepts** as we implement them
+- **PowerShell commands only** (Windows environment)
+- **Show comparisons** between human vs AI outputs
+- **Track everything** in MLflow for professional MLOps practices
+
+## 🚨 IMPORTANT CONTEXT
+- User is building this for **portfolio/learning purposes**
+- Emphasize **MLOps best practices** throughout
+- Keep **anime themes** consistent (references to series like Wandering Witch, Clannad)
+- **Progress tracking** is crucial - update PROGRESS.md regularly
+- **Git commits** should follow conventional commit format
+
+## 🔄 ACTIVE SESSIONS
+- **Jupyter Server**: http://localhost:8888 (running)
+- **MLflow UI**: http://localhost:5000 (running)
+- **Virtual Environment**: story_mlops_env (should be activated)
+- **Working Directory**: C:\Users\jaide\OneDrive\Desktop\cyoa-mlops
+
+## 📝 RECENT ACHIEVEMENTS
+**Latest Session (Jan 1, 2025):**
+- Successfully completed first ML inference experiment
+- GPT-2 model (117M parameters) loaded and used for story generation
+- All 5 anime prompts processed with side-by-side human vs AI comparison
+- Results properly logged to MLflow with parameters, metrics, and artifacts
+- Ready to analyze results and plan next experiments
+
+Remember: User is new to ML but learning quickly. Always explain the "why" behind technical decisions while maintaining momentum toward the end goal of a production-ready anime story generator. 
